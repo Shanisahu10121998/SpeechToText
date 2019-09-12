@@ -8,6 +8,10 @@
     android:background="@drawable/background"
     android:orientation="vertical"
     tools:context=".MainActivity">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="@color/colorAccent">
 
     <TextView
         android:id="@+id/txtview1"
@@ -43,5 +47,5 @@
             android:textStyle="normal"
             android:text="Tap to open Mic" />
     </LinearLayout>
-
+    </androidx.cardview.widget.CardView>
 </LinearLayout>
